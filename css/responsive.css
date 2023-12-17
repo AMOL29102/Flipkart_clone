@@ -1,0 +1,69 @@
+@media screen and (max-width : 1000px) {
+    body{
+        background-color: red;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav .icon img{
+        display: none;
+    }
+    nav .logo{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    .searchbar{
+        display: flex;
+        justify-content: center;
+    }
+    .slider{
+        margin: 20vh 0 0 0 ;
+    }
+    .container{
+        overflow: scroll;
+    }
+    .box img{
+        padding: 0.5vw;
+        max-width: 13vw;
+    }
+    .text-center{
+        font-size: 1.8vw;
+    }
+    footer{
+        height: 3.8vw;
+    }
+    footer p{
+        font-size: 2vw;
+    }
+    .btn
+    {
+        height: 25px;
+    }
+    .searchbar input{
+        height: 22px;
+    }
+    .btn:hover{
+        height: 25px;
+
+    }
+    .headres{
+        display: flex;
+        justify-content: left;
+    }
+    nav ul li a{
+        padding: 0.2vw;
+        font-size: 3vw;
+      
+    }
+    
+    .headres .logo img{
+        height: 7vw;
+    }
+}
